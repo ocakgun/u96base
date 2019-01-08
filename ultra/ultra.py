@@ -3,6 +3,7 @@ from pynq import GPIO
 
 __author__ = "Omer Can Akgun"
 __email__ = "oca@ocakgun.com"
+__version__ = "0.1"
 
 
 class UltraOverlay(pynq.Overlay):
