@@ -2,18 +2,18 @@ from setuptools import setup, find_packages
 import subprocess
 import sys
 import shutil
-import new_overlay
+import ultra
 
 setup(
-    name = "new_overlay",
-    version = new_overlay.__version__,
-    url = 'https://github.com/your_github/new_overlay',
+    name = "ultra",
+    version = ultra.__version__,
+    url = 'https://github.com/ocakgun/u96base',
     license = 'All rights reserved.',
-    author = "Your Name",
-    author_email = "your@email.com",
-    packages = ['new_overlay'],
+    author = "Omer Can Akgun",
+    author_email = "oca@ocakgun.com",
+    packages = ['ultra'],
     package_data = {
-    '' : ['*.bit','*.tcl','*.py','*.so'],
+    '' : ['*.bit','*.tcl','*.py','*.so', '*.hwh'],
     },
-    description = "New custom overlay for PYNQ-Z1"
+    description = "Base overlay for ultra96"
 )
