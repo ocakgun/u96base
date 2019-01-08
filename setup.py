@@ -15,5 +15,9 @@ setup(
     package_data = {
     '' : ['*.bit','*.tcl','*.py','*.so', '*.hwh'],
     },
+    install_requires=[
+        'pynq',
+    ],
+    dependency_links=['http://github.com/xilinx/PYNQ'],
     description = "Base overlay for ultra96"
 )
